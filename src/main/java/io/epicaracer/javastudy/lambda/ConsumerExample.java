@@ -10,7 +10,7 @@ public class ConsumerExample {
 		Consumer<String> consumer = t -> System.out.println(t + "8");
 		consumer.accept("java");
 
-		BiConsumer<String, String> biConsumer = (t, u) -> System.out.prinln(t + u);
+		BiConsumer<String, String> biConsumer = (t, u) -> System.out.println(t + u);
 		biConsumer.accept("java", "8");
 
 		DoubleConsumer doubleConsumer = d -> System.out.println("java" + d);
