@@ -56,8 +56,11 @@ public class CalendarExample {
 		/* 다른 timezone 시간대 출력 */
 		TimeZone timeZone = TimeZone.getTimeZone("America/Los_Angeles");
 		Calendar now2 = Calendar.getInstance(timeZone);
-		String time2 = now2.getTime().toString();
-		System.out.println(time2);
+//		System.out.println(now2.getTime().toString());
+//		String time2 = now2.getTime()
+//		System.out.println(note);
+//		String time2 = now2.getTime().toString();
+//		System.out.println(time2);
 				
 		
 		
